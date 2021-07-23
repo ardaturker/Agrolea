@@ -8,10 +8,16 @@ body{
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
     background-color:#343a40d8;
+    
 }
 
+::-webkit-scrollbar {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
 
 .outer-box{
     display: flex;
@@ -33,6 +39,7 @@ body{
 .navbarproperty {
     font-family: 'Slabo 27px', serif;
     font-size: 2rem;
+    text-align: center;
     
 }
 
@@ -51,7 +58,6 @@ body{
     width: 30vw;
     height: auto;
     background-color: rgba(165, 42, 42, 0);
-    border: solid 2px rgba(0, 0, 0, 0.377);
     
 }
 
@@ -88,9 +94,21 @@ body{
     justify-self: stretch;padding-right: 0;
 }
 }
+@media only screen and (max-width: 995px){
+    ::-webkit-scrollbar {
+        display: unset;
+        visibility: unset;
+        opacity: unset;
+      }
+      body{
+          overflow: hidden!important;
+      }
+}
+
 
 .agrolea-footer{
     margin-top: 0;
+
 }
 
 
