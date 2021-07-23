@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 body{
-    background-image: url(/images/main-bg.jpg);
+    background-image: url(../images/main-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
