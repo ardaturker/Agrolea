@@ -46,10 +46,39 @@ body{
 
 .page-content{
     height: 100vh;
+    /* background-color: #1789fc3f; */
+}
+
+.content-box{
+    /* background-color: #95badf52; */
+    width: auto;
+    height: auto;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-self:center;
+}
+
+.content-box{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self:center;
+}
+
+.content-box h1{
+    font-size: 3vw;
+}
+
+.content-box p{
+    z-index: -1;
+    color: white;
+    font-size: 1vw;
+    text-align: center;
 }
 
 .agrolea-footer{
@@ -58,6 +87,14 @@ body{
 @media only screen and (max-width: 1535px){
     .page-content{
         height: 80vh;
+    }
+
+    .content-box h1{
+        font-size: 6vw;
+    }
+    
+    .content-box p{
+        font-size: 3vw;
     }
 }
 
@@ -70,6 +107,9 @@ body{
       body{
           overflow: hidden!important;
       }
+      .page-content{
+        overflow-y: scroll;
+    }
 }
 
 

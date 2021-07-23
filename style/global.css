@@ -1,5 +1,5 @@
 .color-1{
-    color:#B1740F;
+    color:#b1730f;
 }
 .color-2{
     color:#FFD07B;
@@ -15,7 +15,7 @@
 }
 
 .bg-1{
-    background-color:#B1740F;
+    background-color:#b1730f00;
 }
 .bg-2{
     background-color:#FFD07B;
@@ -31,5 +31,6 @@
 }
 .bg-fade {
     background-color: #86929d5d;
+    z-index: -2;
 }
 

@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 body{
-    background-image: url(../images/main-bg.jpg);
+    background-image: url(images/main-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -55,7 +55,7 @@ body{
 
 
 .content-box{
-    width: 30vw;
+    width: 50vw;
     height: auto;
     background-color: rgba(165, 42, 42, 0);
     
