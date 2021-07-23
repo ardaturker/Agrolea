@@ -10,7 +10,7 @@ body{
     height: 100vh;
     background-color:#343a40d8;
     
-}
+}  
 
 ::-webkit-scrollbar {
     display: none;
@@ -46,6 +46,7 @@ body{
 
 .page-content{
     height: 100vh;
+    overflow-y: scroll;
     /* background-color: #1789fc3f; */
 }
 
@@ -77,7 +78,7 @@ body{
 .content-box p{
     z-index: -1;
     color: white;
-    font-size: 1vw;
+    font-size: 1.25vw;
     text-align: center;
 }
 
@@ -109,7 +110,7 @@ body{
       }
       .page-content{
         overflow-y: scroll;
-    }
+    }   
 }
 
 
