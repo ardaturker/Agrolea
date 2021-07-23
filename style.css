@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body{
+    background-image: url(/images/main-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color:#343a40d8;
+}
+
+
+.outer-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inner-box{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.navbar{
+    background-color: #343a40d8;
+}
+
+.navbarproperty {
+    font-family: 'Slabo 27px', serif;
+    font-size: 2rem;
+    
+}
+
+
+.mainpage-title {
+    float: left;
+    text-align: center;
+    justify-content: center;
+    font-size: 4vw;
+    font-family: 'Lora', serif;
+    padding-right: 140px;
+}
+
+
+.content-box{
+    width: 30vw;
+    height: auto;
+    background-color: rgba(165, 42, 42, 0);
+    border: solid 2px rgba(0, 0, 0, 0.377);
+    
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.page-content{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self:center;
+}
+
+@media only screen and (max-width: 1535px){
+    .page-content{
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 775px){
+   .content-box{
+       display: none;
+   }
+
+   .mainpage-title {
+    text-align: center;
+    justify-content: center;
+    font-size: 11vw;
+    font-family: 'Lora', serif;
+    justify-self: stretch;padding-right: 0;
+}
+}
+
+.agrolea-footer{
+    margin-top: 0;
+}
+
+
+
+
+
