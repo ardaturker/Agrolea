@@ -1,38 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
-body{
+body {
     background-image: url(../images/main-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    background-color:#343a40d8;
-    
-}  
+    background-color: #343a40d8;
+
+}
 
 ::-webkit-scrollbar {
     display: none;
     visibility: hidden;
     opacity: 0;
-  }
-  
+}
 
-.outer-box{
+
+.outer-box {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.inner-box{
+.inner-box {
     height: 100vh;
     width: 100vw;
 }
 
 
-.navbar{
+.navbar {
     background-color: #343a40d8;
 }
 
@@ -40,17 +41,17 @@ body{
     font-family: 'Slabo 27px', serif;
     font-size: 2rem;
     text-align: center;
-    
+
 }
 
 
-.page-content{
+.page-content {
     height: 100vh;
     overflow-y: scroll;
     /* background-color: #1789fc3f; */
 }
 
-.content-box{
+.content-box {
     /* background-color: #95badf52; */
     width: auto;
     height: auto;
@@ -58,65 +59,256 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-self:center;
+    justify-self: center;
 }
 
-.content-box{
+.content-box {
     width: auto;
     height: auto;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-self:center;
+    justify-self: center;
 }
 
-.content-box h1{
+.content-box h1 {
     font-size: 3vw;
 }
 
-.content-box p{
+.content-box p {
     z-index: -1;
     color: white;
     font-size: 1.25vw;
     text-align: center;
 }
 
-.agrolea-footer{
+/* .content-box h2{
+    font-family: 'Otomanopee One', sans-serif;
+} */
+
+.agrolea-footer {
     margin-top: 0;
 }
-@media only screen and (max-width: 1535px){
-    .page-content{
+
+
+@media only screen and (max-width: 1535px) {
+    .page-content {
         height: 80vh;
     }
 
-    .content-box h1{
+    .content-box h1 {
         font-size: 6vw;
     }
-    
-    .content-box p{
+
+    .content-box p {
         font-size: 3vw;
     }
 }
 
-@media only screen and (max-width: 995px){
+@media only screen and (max-width: 995px) {
     ::-webkit-scrollbar {
         display: unset;
         visibility: unset;
         opacity: unset;
-      }
-      body{
-          overflow: hidden!important;
-      }
-      .page-content{
+    }
+
+    body {
+        overflow: hidden !important;
+    }
+
+    .page-content {
         overflow-y: scroll;
-    }   
+    }
+
+}
+
+/* map */
+
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 520px;
+    width: 820px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 520px;
+    width: 820px;
+}
+
+.mapouter-middle {
+    position: relative;
+    text-align: right;
+    height: 320px;
+    width: 530px;
+}
+
+.gmap_canvas-middle {
+    overflow: hidden;
+    background: none !important;
+    height: 320px;
+    width: 530px;
+}
+
+.mapouter-little {
+    position: relative;
+    text-align: right;
+    height: 282px;
+    width: 224px;
+}
+
+.gmap_canvas-little {
+    overflow: hidden;
+    background: none !important;
+    height: 282px;
+    width: 224px;
 }
 
 
+@media only screen and (max-width: 765px){
+    .gmap_canvas {
+        display: none;
+        overflow: hidden;
+        background: none !important;
+        height: 520px;
+        width: 820px;
+    }
+    
+    .mapouter {
+        display: none;
+        position: relative;
+        text-align: right;
+        height: 520px;
+        width: 820px;
+    }
+    
+    .mapouter-middle {
+        display: none;
+        position: relative;
+        text-align: right;
+        height: 320px;
+        width: 530px;
+    }
+    
+    .gmap_canvas-middle {
+        display: none;
+        overflow: hidden;
+        background: none !important;
+        height: 320px;
+        width: 530px;
+    }
+    
+    .mapouter-little {
+        position: relative;
+        text-align: right;
+        height: 282px;
+        width: 224px;
+    }
+    
+    .gmap_canvas-little {
+        overflow: hidden;
+        background: none !important;
+        height: 282px;
+        width: 224px;
+    }
+}
+@media only screen and (min-width: 765px)and (max-width: 992px){
+    .gmap_canvas {
+        display: none;
+        overflow: hidden;
+        background: none !important;
+        height: 520px;
+        width: 820px;
+    }
+    
+    .mapouter {
+        display: none;
+        position: relative;
+        text-align: right;
+        height: 520px;
+        width: 820px;
+    }
+    
+    .mapouter-middle {
+        position: relative;
+        text-align: right;
+        height: 320px;
+        width: 530px;
+    }
+    
+    .gmap_canvas-middle {
+        overflow: hidden;
+        background: none !important;
+        height: 320px;
+        width: 530px;
+    }
+    
+    .mapouter-little {
+        display: none;
+        position: relative;
+        text-align: right;
+        height: 282px;
+        width: 224px;
+    }
+    
+    .gmap_canvas-little {
+        display: none;
+        overflow: hidden;
+        background: none !important;
+        height: 282px;
+        width: 224px;
+    }
+}
 
+@media only screen and (min-width: 992px){
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 520px;
+        width: 820px;
+    }
+    
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 520px;
+        width: 820px;
+    }
+    
+    .mapouter-middle {
+        display: none;
+        position: relative;
+        text-align: right;
+        height: 320px;
+        width: 530px;
+    }
+    
+    .gmap_canvas-middle {
+        display: none;
+        overflow: hidden;
+        background: none !important;
+        height: 320px;
+        width: 530px;
+    }
+    
+    .mapouter-little {
+        display: none;
+        position: relative;
+        text-align: right;
+        height: 282px;
+        width: 224px;
+    }
+    
+    .gmap_canvas-little {
+        display: none;
+        overflow: hidden;
+        background: none !important;
+        height: 282px;
+        width: 224px;
+    }
 
-
-
-
-
+}

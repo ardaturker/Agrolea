@@ -14,8 +14,12 @@
     color:#1789FC;
 }
 
+.color-white{
+    color: white;
+}
+
 .bg-1{
-    background-color:#b1730f00;
+    background-color:#b1730f;
 }
 .bg-2{
     background-color:#FFD07B;
@@ -32,5 +36,9 @@
 .bg-fade {
     background-color: #86929d2d;
     z-index: -2;
+}
+
+.bg-darkgray{
+    background-color: #343a40;
 }
 
