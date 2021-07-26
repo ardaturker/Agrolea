@@ -157,15 +157,15 @@ body {
 .mapouter-little {
     position: relative;
     text-align: right;
-    height: 282px;
-    width: 224px;
+    height: 450px;
+    width: 320px;
 }
 
 .gmap_canvas-little {
     overflow: hidden;
     background: none !important;
-    height: 282px;
-    width: 224px;
+    height: 450px;
+    width: 320px;
 }
 
 
@@ -205,15 +205,15 @@ body {
     .mapouter-little {
         position: relative;
         text-align: right;
-        height: 282px;
-        width: 224px;
+        height: 450px;
+        width: 320px;
     }
     
     .gmap_canvas-little {
         overflow: hidden;
         background: none !important;
-        height: 282px;
-        width: 224px;
+        height: 450px;
+        width: 320px;
     }
 }
 @media only screen and (min-width: 765px)and (max-width: 992px){
@@ -251,16 +251,16 @@ body {
         display: none;
         position: relative;
         text-align: right;
-        height: 282px;
-        width: 224px;
+        height: 450px;
+        width: 320px;
     }
     
     .gmap_canvas-little {
         display: none;
         overflow: hidden;
         background: none !important;
-        height: 282px;
-        width: 224px;
+        height: 450px;
+        width: 320px;
     }
 }
 
@@ -299,16 +299,16 @@ body {
         display: none;
         position: relative;
         text-align: right;
-        height: 282px;
-        width: 224px;
+        height: 450px;
+        width: 320px;
     }
     
     .gmap_canvas-little {
         display: none;
         overflow: hidden;
         background: none !important;
-        height: 282px;
-        width: 224px;
+        height: 450px;
+        width: 320px;
     }
 
 }
