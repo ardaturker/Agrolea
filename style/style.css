@@ -3,20 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+
 body {
+    z-index: 999;
     background-image: url(../images/main-bg.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     width: 100vw;
     height: 100vh;
     background-color: #343a40d8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 
-}
-
-::-webkit-scrollbar {
-    display: none;
-    visibility: hidden;
-    opacity: 0;
 }
 
 
@@ -45,15 +44,7 @@ body {
 }
 
 
-.page-content {
-    height: 100vh;
-    overflow-y: scroll;
-    /* background-color: #1789fc3f; */
-}
-
-.content-box {
-    /* background-color: #95badf52; */
-    width: auto;
+ .content-box {
     height: auto;
     padding: 20px;
     display: flex;
@@ -73,26 +64,21 @@ body {
 }
 
 .content-box h1 {
-    font-size: 3vw;
+    font-size: xxx-large;
 }
 
 .content-box p {
-    z-index: -1;
-    color: white;
-    font-size: 1.25vw;
-    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: X-large;
 }
 
-/* .content-box h2{
-    font-family: 'Otomanopee One', sans-serif;
-} */
 
 .agrolea-footer {
-    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
-@media only screen and (max-width: 1535px) {
+/* @media only screen and (max-width: 1535px) {
     .page-content {
         height: 80vh;
     }
@@ -104,9 +90,9 @@ body {
     .content-box p {
         font-size: 3vw;
     }
-}
+} */
 
-@media only screen and (max-width: 995px) {
+/* @media only screen and (max-width: 995px) {
     ::-webkit-scrollbar {
         display: unset;
         visibility: unset;
@@ -121,7 +107,7 @@ body {
         overflow-y: scroll;
     }
 
-}
+} */
 
 /* map */
 
@@ -169,7 +155,7 @@ body {
 }
 
 
-@media only screen and (max-width: 765px){
+@media only screen and (max-width: 765px) {
     .gmap_canvas {
         display: none;
         overflow: hidden;
@@ -177,7 +163,7 @@ body {
         height: 520px;
         width: 820px;
     }
-    
+
     .mapouter {
         display: none;
         position: relative;
@@ -185,7 +171,7 @@ body {
         height: 520px;
         width: 820px;
     }
-    
+
     .mapouter-middle {
         display: none;
         position: relative;
@@ -193,7 +179,7 @@ body {
         height: 320px;
         width: 530px;
     }
-    
+
     .gmap_canvas-middle {
         display: none;
         overflow: hidden;
@@ -201,14 +187,14 @@ body {
         height: 320px;
         width: 530px;
     }
-    
+
     .mapouter-little {
         position: relative;
         text-align: right;
         height: 450px;
         width: 320px;
     }
-    
+
     .gmap_canvas-little {
         overflow: hidden;
         background: none !important;
@@ -216,7 +202,8 @@ body {
         width: 320px;
     }
 }
-@media only screen and (min-width: 765px)and (max-width: 992px){
+
+@media only screen and (min-width: 765px)and (max-width: 992px) {
     .gmap_canvas {
         display: none;
         overflow: hidden;
@@ -224,7 +211,7 @@ body {
         height: 520px;
         width: 820px;
     }
-    
+
     .mapouter {
         display: none;
         position: relative;
@@ -232,21 +219,21 @@ body {
         height: 520px;
         width: 820px;
     }
-    
+
     .mapouter-middle {
         position: relative;
         text-align: right;
         height: 320px;
         width: 530px;
     }
-    
+
     .gmap_canvas-middle {
         overflow: hidden;
         background: none !important;
         height: 320px;
         width: 530px;
     }
-    
+
     .mapouter-little {
         display: none;
         position: relative;
@@ -254,7 +241,7 @@ body {
         height: 450px;
         width: 320px;
     }
-    
+
     .gmap_canvas-little {
         display: none;
         overflow: hidden;
@@ -264,21 +251,21 @@ body {
     }
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
     .gmap_canvas {
         overflow: hidden;
         background: none !important;
         height: 520px;
         width: 820px;
     }
-    
+
     .mapouter {
         position: relative;
         text-align: right;
         height: 520px;
         width: 820px;
     }
-    
+
     .mapouter-middle {
         display: none;
         position: relative;
@@ -286,7 +273,7 @@ body {
         height: 320px;
         width: 530px;
     }
-    
+
     .gmap_canvas-middle {
         display: none;
         overflow: hidden;
@@ -294,7 +281,7 @@ body {
         height: 320px;
         width: 530px;
     }
-    
+
     .mapouter-little {
         display: none;
         position: relative;
@@ -302,7 +289,7 @@ body {
         height: 450px;
         width: 320px;
     }
-    
+
     .gmap_canvas-little {
         display: none;
         overflow: hidden;

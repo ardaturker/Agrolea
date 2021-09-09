@@ -3,6 +3,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+.wrapper-scroll{
+    
+    background-color: violet;
+}
+
+  .container-scroll {
+    flex-basis: 50%;
+    max-height: 100vh;
+    overflow-y: scroll;
+    border: 1px solid gray;
+    scroll-snap-type: y mandatory;}
+  
+    .container-scroll li {
+    height: 100vh;
+    border-bottom: 1px solid white;
+    padding: 3rem;
+    font-size: 1.4rem;
+    color: rgba(white, .5);
+    background: lightgray;
+    text-align: center;
+    scroll-snap-align: start;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
 body {
     background-image: url(../images/main-bg.jpg);
     background-size: cover;
@@ -44,13 +70,6 @@ body {
 
 }
 
-
-.page-content {
-    height: 100vh;
-    overflow-y: scroll;
-    /* background-color: #1789fc3f; */
-}
-
 .content-box {
     /* background-color: #95badf52; */
     width: auto;
@@ -74,7 +93,7 @@ body {
 
 
 .agrolea-footer {
-    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
