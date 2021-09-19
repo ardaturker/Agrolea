@@ -3,6 +3,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+
+/* .sabun-wrapper {
+    display: none;
+} */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
 .wrapper-scroll{
     
     background-color: violet;
@@ -28,21 +65,20 @@
     flex-flow: column;
     justify-content: center;
   }
+  
 
-body {
+  body {
+    z-index: 999;
     background-image: url(../images/main-bg.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     width: 100vw;
     height: 100vh;
     background-color: #343a40d8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 
-}
-
-::-webkit-scrollbar {
-    display: none;
-    visibility: hidden;
-    opacity: 0;
 }
 
 
@@ -70,9 +106,8 @@ body {
 
 }
 
-.content-box {
-    /* background-color: #95badf52; */
-    width: auto;
+
+ .content-box {
     height: auto;
     padding: 20px;
     display: flex;
@@ -89,34 +124,18 @@ body {
     align-items: center;
     justify-content: center;
     justify-self: center;
+}
+
+.content-box h1 {
+    font-size: xxx-large;
+}
+
+.content-box p {
+    color: rgb(255, 255, 255);
+    font-size: X-large;
 }
 
 
 .agrolea-footer {
     margin-bottom: 0;
-}
-
-
-@media only screen and (max-width: 1535px) {
-    .page-content {
-        height: 80vh;
-    }
-
-}
-
-@media only screen and (max-width: 995px) {
-    ::-webkit-scrollbar {
-        display: unset;
-        visibility: unset;
-        opacity: unset;
-    }
-
-    body {
-        overflow: hidden !important;
-    }
-
-    .page-content {
-        overflow-y: scroll;
-    }
-
 }
